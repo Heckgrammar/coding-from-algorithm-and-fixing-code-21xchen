@@ -16,7 +16,7 @@
         		Console.WriteLine("enter a start year");
         		int startYear = Convert.ToInt16(Console.ReadLine());
         		Console.WriteLine("enter an end year");
-        		int endYear = Convert.ToInt16(Console.ReadLine());
+        		int endYear = Convert.ToInt32(Console.ReadLine());
     		if (startYear >= endYear)
     		{
     			Console.WriteLine("start year must be before 2000");
